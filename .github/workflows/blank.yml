@@ -1,0 +1,55 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Major Key Marketing Solutions
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ MKMS ]
+  pull_request:
+    branches: [ MKMS ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:◇B2B Marketing 
+◇Online Advertising
+◇Search Engine Optimisation
+◇User Experience Mapping & Design
+◇Social Media Content
+
+◇Strategy Consulting
+◇Programmatic Media Buying
+◇Google Adwords
+◇Media Buying
+
+◇Creative Production
+◇Online Reputation Management
+◇Mobile Design
+◇Influencer Marketing
+
+◇Public Relations
+◇Animation (2D & 3D)
+◇Art Direction
+  # This workflow contains a single job called "build"
+  build:Main stream Marketing & Digital Marketing 
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:Gathering Information on Brand,Company or Product .
+    Learn And Analyse What kind of Market is being entered and if the outcomes will be successful .
+    Make a test marketing campaign to actually Provide feedback to client .
+    after careful research and consideration a financial plan will be set out .
+    And finally the Official Marketing Campaign will begin .
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
